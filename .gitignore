@@ -1,0 +1,7 @@
+.venv
+build
+dist
+results
+*.pyc
+log.txt
+sql.txt

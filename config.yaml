@@ -1,0 +1,18 @@
+my-second-server:
+  database:
+    db_host: 127.0.0.1
+    db_port: 5432
+    db_name: northwind
+    db_user: postgres
+    db_password: password
+
+my-first-server:
+  database:
+    db_name: northwind
+    db_user: postgres
+    db_password: password
+  ssh:
+    ssh_user: root
+    ssh_password: password
+    ssh_port: 22
+    ssh_host: 127.0.0.1
